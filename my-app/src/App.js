@@ -15,31 +15,34 @@ const initModal = {
   default: ""
 };
 
-const initDatas = [
-  {
-    id: 1,
-    text: "label-1",
-    xAxis: 0,
-    yAxis: 0,
-    fontSize: 12,
-    fontWeight: 10
-  },
-  {
-    id:2,
-    text: "label-2",
-    xAxis: 0,
-    yAxis: 0,
-    fontSize: 12,
-    fontWeight: 10
-  }
-];
+// const initDatas = [
+//   {
+//     id: 1,
+//     text: "label-1",
+//     xAxis: 0,
+//     yAxis: 0,
+//     fontSize: 12,
+//     fontWeight: 10
+//   },
+//   {
+//     id:2,
+//     text: "label-2",
+//     xAxis: 0,
+//     yAxis: 0,
+//     fontSize: 12,
+//     fontWeight: 10
+//   }
+// ];
+
+
 
 function App() {
   // const [showSideBar, setShowSideBar] = useState(false);
   const [datas, setDatas] = useState(()=>{
     const lsDatas = JSON.parse(localStorage.getItem("dragableDatas"));
-    return lsDatas || initDatas;
+    return lsDatas || [];
   });
+  
   const [showModal, setShowModal] = useState(initModal.default);
 
   const handleShowModal = (val) => {

@@ -1,0 +1,53 @@
+.mainContainer{
+    margin: auto;
+    width: 30%;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    z-index: 100000;
+    background: white;
+    pointer-events: auto;
+}
+
+.labelContainer{
+    /* border: 1px solid black; */
+    padding: 8px;
+    margin: 10px;
+    /* border: 1px solid green; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.labelContainerHeader{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.labelContainerBody{
+    text-align: left;
+    /* border: 1px solid pink; */
+}
+
+.btn{
+    border: none;
+    background-color: white;
+    font-size: large;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.submitBtn{
+    width: auto;
+    margin: 10px 0px;
+    padding: 8px 12px;
+    color: white;
+    background-color: #2b619e;
+    border: none;
+    font-size: large;
+    cursor: pointer;
+
+}
+.submitBtn:hover{
+    background-color: #3973b6;
+}

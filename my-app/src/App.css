@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  position: relative;
+
+  /* background-color: gray;
+  opacity: 50%;
+  pointer-events: none; */
+}
+
+.AppAfterModal{
+  text-align: center;
+  position: relative;
+
+  background-color: gray;
+  opacity: 80%;
+  pointer-events: none;
+}
+
+.wrapper{
+  display: flex;
+  border: 1px solid red;
+  min-height: 100vh;
+}
+
+.main{
+  width: 100%;
+  border: 1px solid black;
+}
+
+.sidebar{
+  width: 25%;
+  border: 1px solid navy;
+  padding: 7px;
+  background-color: black;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: large;
+}
+
+label{
+  color: gray;
+}
+
+.appBtn{
+  cursor: pointer;
+  width: 95%;
+  /* border: 1px solid red; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+  color: #ccc;
+  font-size: large;
+  padding: 10px 2px;
+  text-align: left;
+  margin: 7px;
+  border-radius: 5px;
+}
